@@ -32,7 +32,6 @@ const NewYearAnimation = () => {
     <div className="relative flex flex-col items-center justify-center w-full h-screen bg-black overflow-hidden">
       <ParticlesBackground />
 
-      {/* Logos animés */}
       <motion.div className="absolute top-10 left-0 right-0 flex flex-wrap justify-between px-4 sm:px-10 z-10">
         <motion.img
           src="/roadshine.png"
@@ -45,25 +44,22 @@ const NewYearAnimation = () => {
         <motion.img
           src="/maharat.png"
           alt="Maharat Logo"
-          className="w-24 h-auto sm:w-40"
+          className="w-24 h-auto sm:w-60"
           initial="initial"
           animate="animate"
           variants={imageMotionVariants}
         />
       </motion.div>
 
-      {/* Texte Happy New Year */}
       <motion.h1
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 3 }}
-        className="text-5xl sm:text-9xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#5C365D] to-[#FBCB81] z-10 text-center px-4"
+        className="text-5xl sm:text-9xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#5C365D] to-[#FBCB81] z-10 mt-16 text-center px-4"
       >
         HAPPY NEW YEAR
       </motion.h1>
-
-      {/* Année animée */}
-      <motion.div className="flex text-5xl sm:text-8xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#FBCB81] to-[#5C365D] z-10 mt-4 sm:mt-6">
+      <motion.div className="flex text-5xl sm:text-8xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#FBCB81] to-[#5C365D] z-10 mt-6 sm:mt-6">
         <motion.span
           className="mx-1"
           initial="initial"
