@@ -50,12 +50,38 @@ const NewYearAnimation = () => {
           variants={imageMotionVariants}
         />
       </motion.div>
-
       <motion.h1
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 3 }}
-        className="text-5xl sm:text-9xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#5C365D] to-[#FBCB81] z-10 mt-16 text-center px-4"
+        className="text-2xl sm:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#5C365D] to-[#FBCB81] z-10 mt-20 text-center px-4"
+      >
+        ROADSHINE and MAHARAT 
+     
+      </motion.h1>
+      <motion.h1
+        initial={{ opacity: 0, y: -50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 3 }}
+        className="text-2xl sm:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#5C365D] to-[#FBCB81] z-10 mt-6 text-center px-4"
+      >
+       wish you 
+     
+      </motion.h1>
+      <motion.h1
+        initial={{ opacity: 0, y: -50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 3 }}
+        className="text-2xl sm:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#5C365D] to-[#FBCB81] z-10 mt-2 text-center px-4"
+      >
+       a
+     
+      </motion.h1>
+      <motion.h1
+        initial={{ opacity: 0, y: -50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 3 }}
+        className="text-5xl sm:text-9xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#5C365D] to-[#FBCB81] z-10 mt-6 sm:mt-16 text-center px-4"
       >
         HAPPY NEW YEAR
       </motion.h1>
@@ -97,6 +123,8 @@ const NewYearAnimation = () => {
           {year[3]}
         </motion.span>
       </motion.div>
+
+
     </div>
   );
 };
